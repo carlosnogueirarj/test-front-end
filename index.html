@@ -9,50 +9,47 @@
   <body>
     <div>
       <div>
-        <div>
+        <h1>Finaliza tu compra:</h1>
+        <h2>Completa los campos en minutos y estarás asegurado!</h2>
+      </div>
+      <div>
+        <div>Precio anual: 16,52uf</div>
+        <div>Deducible: 10uf</div>
+      </div>
+      <div>
+        <form>
           <div>
-            <div>
-              <h1>Cotiza tu Seguro Automotriz</h1>
-              <h2>¡Resultados Instantáneos!</h2>
-            </div>
-            <div>
-            <form>
-              <ul>
-                <li>
-                  <label for="marca_del_auto">Marca del auto</label>
-                    <select id="marca_del_auto" name="marca_del_auto">
-                      <option>Opel</option>
-                      <option>Corsa</option>
-                      <option>Hola</option>
-                    </select>
-                </li> 
-                <li class="modelo_del_auto">
-                  <label for="modelo_del_auto">Modelo del auto</label>
-                    <select id="modelo_del_auto" name="modelo_del_auto">
-                      <option value="1">Modelo 1</option>
-                      <option>Modelo 2</option>
-                      <option>Modelo 3</option>
-                    </select>
-                </li>
-                <li>
-                  <label for="ano_auto">Año auto</label>
-                  <select id="ano_auto" name="ano_auto">
-                    <option>1999</option>
-                    <option>2005</option>
-                    <option>2014</option>
-                  </select>
-                </li>
-                <li>
-                  <label for="email">Email</label>
-                  <input type="text" id="email" name="email" />
-                </li>
-              </ul>
-              <div style="clear:both"></div>
-              <input type="submit" name="submit" id="cotizar" Value="Cotizar">
-              </form>   
-            </div>
+            <label>Nombres</label>
+            <input name="nombres" />
           </div>
-        </div>
+          <div>
+            <label>Apellido paterno</label>
+            <input name="apellido_paterno" />
+          </div>
+          <div>
+            <label>Apellido materno</label>
+            <input name="apellido_materno" />
+          </div>
+          <div>
+            <label>RUT</label>
+            <input name="rut" />
+          </div>
+          <div>
+            <label>Estado civil</label>
+            <select name="estado_civil">
+              <option>Soltero</option>
+              <option>Casado</option>
+              <option>Divorciado</option>
+            </select>
+          </div>
+          <div>
+            <label>Fecha de nacimiento</label>
+            <input name="dia" />
+            <input name="mes" />
+            <input name="anio" />
+          </div>
+          <input type="submit" name="submit" Value="Siguiente">
+        </form>
       </div>
     </div>
   </body>
